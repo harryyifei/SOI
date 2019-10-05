@@ -5,7 +5,6 @@ URL-REGEX,^https?:\/\/iadmusicmat\.music.126.net\/.*jpg$
 URL-REGEX,^https?:\/\/p\.c\.music\.126.net\/.*jpg$
 URL-REGEX,^https?:\/\/www.baidu.com\/?action=static&ms=1&version=css_page_2@0.*
 URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
 URL-REGEX,^https?:\/\/shimo\.im\/api\/ads\?(.+)
 URL-REGEX,^https?:\/\/c\.minisplat\.cn
 URL-REGEX,^https?:\/\/c1\.minisplat\.cn
