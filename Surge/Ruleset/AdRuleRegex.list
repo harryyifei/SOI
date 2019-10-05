@@ -428,7 +428,6 @@ URL-REGEX,^https?:\/\/www\.dandanzan\.com\/res\/gdsefse\.js
 URL-REGEX,^https?:\/\/mobile-api2011\.elong\.com\/(adgateway|adv)\/
 URL-REGEX,^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/
 URL-REGEX,^https?:\/\/foodie-api\.yiruikecorp\.com\/v1\/(banner|notice)\/overview
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/ptracking
@@ -631,7 +630,6 @@ URL-REGEX,^https?:\/\/t\d{2}.baidu.com
 URL-REGEX,^https?:\/\/.+/videos/other/.+
 URL-REGEX,^https?:\/\/paopao\w?.qiyipic.com
 URL-REGEX,^https?:\/\/www.bldimg.com/(background|splash)/.+.png$
-URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/player\/ad_
 URL-REGEX,^https?://.+ccode=0902
 URL-REGEX,^https?:\/\/ulogs\.umeng\.com
 URL-REGEX,^https?:\/\/ulogs\.umengcloud\.com
