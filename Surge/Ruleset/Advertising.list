@@ -554,8 +554,7 @@ URL-REGEX,^https?:\/\/app\.variflight\.com\/v\d\/advert\/
 
 # G
 # > Google
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+&oad
-URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+ctier
+URL-REGEX,^https?:\/\/.+\.googlevideo\.com\/.+(&oad|ctier)
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_
 URL-REGEX,^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_
 URL-REGEX,^https?:\/\/.+\.youtube\.com\/get_midroll_
@@ -619,7 +618,7 @@ URL-REGEX,^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson
 URL-REGEX,^https?:\/\/api\.gotokeep\.com\/ads
 # > 快看漫画
 URL-REGEX,^https?:\/\/api\.kkmh\.com\/.+(ad|advertisement)\/
-# > 酷我 (122.14.246.33)
+# > 酷我 (122.14.246.33,175.102.178.52)
 # (仅 Surge 可用因其支持 force-http-engine-hosts)
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo
@@ -676,7 +675,7 @@ URL-REGEX,^https?:\/\/ma\.ofo\.com\/ads\/
 URL-REGEX,^https?:\/\/activity2\.api\.ofo\.com\/ofo\/Api\/v2\/ads
 URL-REGEX,^https?:\/\/ma\.ofo\.com\/adImage\/
 # > Oray
-URL-REGEX,^https?:\/\/slapi.oray.net/client/ad
+URL-REGEX,^https?:\/\/slapi\.oray\.net\/client\/ad
 
 # P
 # > 票根
@@ -690,7 +689,7 @@ URL-REGEX,^https?:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json
 URL-REGEX,^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad
 # > 穷游
 URL-REGEX,^https?:\/\/open\.qyer\.com\/qyer\/startpage\/
-URL-REGEX,^https?:\/\/open\.qyer.com\/qyer\/config\/get
+URL-REGEX,^https?:\/\/open\.qyer\.com\/qyer\/config\/get
 URL-REGEX,^https?:\/\/media\.qyer\.com\/ad\/
 # > 亲宝宝
 URL-REGEX,^https?:\/\/api\.qbb6\.com\/ad\/
@@ -749,7 +748,7 @@ URL-REGEX,^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/
 URL-REGEX,^https?:\/\/btrace.qq.com
 URL-REGEX,^https?:\/\/vv\.video\.qq\.com\/getvmind\?
 # URL-REGEX,^https?:\/\/.+\.mp4.+&sdtfrom=v3004
-URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\.tc\.qq\.com\/.+\.mp4\?
+URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\?
 # >> 腾讯新闻
 URL-REGEX,^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig)
 # >> 微信
@@ -822,7 +821,7 @@ URL-REGEX,^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqtad
 URL-REGEX,^https?:\/\/tqt\.weibo\.cn\/.+advert\.index
 URL-REGEX,^https?:\/\/tqt\.weibo\.cn\/api\/advert\/
 # > 下厨房
-URL-REGEX,^https?:\/\/api\.xiachufang\.com\/v2\/ad/
+URL-REGEX,^https?:\/\/api\.xiachufang\.com\/v\d\/ad/
 # > 虾米
 URL-REGEX,^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit\/
 # > 小睡眠
@@ -837,7 +836,7 @@ URL-REGEX,^https?:\/\/tiku\.zhan\.com\/Common\/newAd\/
 
 # Y
 # > Yahoo!
-URL-REGEX,^https?:\/\/m\.yap\.yahoo\.com\/v18\/getAds\.do
+URL-REGEX,^https?:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do
 # > Youtube++
 URL-REGEX,^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/
 # > 萤石云视频
@@ -880,6 +879,7 @@ URL-REGEX,^https?:\/\/.+\.pstatp\.com\/img\/ad
 URL-REGEX,^https?:\/\/.+\.(musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/
 URL-REGEX,^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/
 URL-REGEX,^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/
+URL-REGEX,^https?:\/\/.+/img\/ad\.union\.api\/
 # > 中国银行
 URL-REGEX,^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?
 # > 中信银行
@@ -901,7 +901,6 @@ URL-REGEX,^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit
 URL-REGEX,^https?:\/\/gg\w+\.cmvideo\.cn\/v\d\/iflyad\/
 URL-REGEX,^https?:\/\/ggic(\d)?\.cmvideo\.cn\/ad\/
 URL-REGEX,^https?:\/\/ggx\.cmvideo\.cn\/request\/
-URL-REGEX,^https?:\/\/.+/img\/ad\.union\.api\/
 URL-REGEX,^https?:\/\/.+\/cdn-adn\/
 # > 中国联通
 URL-REGEX,^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm
