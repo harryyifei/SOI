@@ -145,21 +145,7 @@ let url=$request.url;
 if(url.endsWith("offerings")||url.endsWith("products")) {
 	$done({});
 } else {
-	// Noto笔记Lifetime
-	if (url.indexOf("9CAC379F-3265-4BE8-B039-E8FDAA1A71FD")!=-1) {
-		obj["subscriber"]["entitlements"]["pro"]={
-			"expires_date": null,
-			"product_identifier": "com.lkzhao.editor.full.deal",
-			"purchase_date": "2019-12-01T00:00:00Z"
-		};
-		obj["subscriber"]["non_subscriptions"]["com.lkzhao.editor.full.deal"]=[{
-			"id": "12345qwert",
-			"is_sandbox": false,
-			"original_purchase_date": "2019-12-01T00:00:00Z",
-			"purchase_date": "2019-12-01T00:00:00Z",
-			"store": "app_store"
-		}];
-	}
+
 	// Airmail Premium
 	if (url.indexOf("8D9192FE-6956-4FA9-8D09-CFAD1AB889DB")!=-1) {
 		obj["subscriber"]["entitlements"]={
