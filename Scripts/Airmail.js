@@ -145,18 +145,17 @@ let url=$request.url;
 if(url.endsWith("offerings")||url.endsWith("products")) {
 	$done({});
 } else {
-
 	// Airmail Premium
 	if (url.indexOf("8D9192FE-6956-4FA9-8D09-CFAD1AB889DB")!=-1) {
 		obj["subscriber"]["entitlements"]={
 			"Airmail Premium": {
 				"expires_date": "2099-12-01T00:00:00Z",
-				"product_identifier": "Airmail_iOS_Yearly",
+				"product_identifier": "Airmail_Mac_Yearly",
 				"purchase_date": "2020-02-22T00:00:00Z"
 			}
 		};
 		obj["subscriber"]["subscriptions"]={
-			"Airmail_iOS_Yearly": {
+			"Airmail_Mac_Yearly": {
 				"is_sandbox": false,
 				"period_type": "active",
 				"billing_issues_detected_at": null,
