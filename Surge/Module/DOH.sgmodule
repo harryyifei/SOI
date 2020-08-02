@@ -1,0 +1,5 @@
+#!name=DOH
+#!desc=DNS Over HTTPS
+
+[General]
+doh-server = https://doh.pub/dns-query
