@@ -1,0 +1,9 @@
+#!name=special_rule
+#!desc= 为 Apple 的服务其验证以及Proxy获取分别独立两个 Rules
+
+
+[Rule]
+#Surge 更新自身或者外部资源更新用指定的 Proxy
+PROCESS-NAME,Surge,Proxy
+# Apple
+DOMAIN,ocsp.apple.com,Proxy
