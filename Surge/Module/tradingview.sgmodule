@@ -1,0 +1,7 @@
+#!name=tradingView
+#!desc=测试TradingView的走Proxy
+
+
+[Rule]
+#tradingView
+PROCESS-NAME,tradingview,Proxy
