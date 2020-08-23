@@ -1,0 +1,6 @@
+#!name=tradingView
+
+
+[Rule]
+#tradingView
+PROCESS-NAME,tradingview,Proxy
