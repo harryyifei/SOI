@@ -23,10 +23,6 @@
 [Script]
 NASA每日一图 = type=cron,cronexp=5 0 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js
 
-【Loon】
------------------
-[Script]
-cron "5 0 * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图
 
 【Quantumult X】
 -----------------
