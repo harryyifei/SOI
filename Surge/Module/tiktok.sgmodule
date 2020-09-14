@@ -1,0 +1,12 @@
+#!name=TikTok Unlock by reF1nd & Shawn
+#!desc=Remove TikTok's regional restrictions and watermark
+#!system=ios
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) JP 307
+(?<=&app_version=)16..(?=.?.?&) 1 307
+(?<=\?version_code=)16..(?=.?.?&) 1 307
+(?<=\?video_id=\w{32})(.*watermark=)(.*) $1 302
+
+[MITM]
+hostname = %INSERT% *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
