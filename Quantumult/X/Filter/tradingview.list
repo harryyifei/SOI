@@ -1,6 +1,6 @@
 # > TradingView Proxies
 
-DOMAIN-KEYWORD,tradingview
+
 DOMAIN,www.tradingview.com
 DOMAIN,data.tradingview.com
 USER-AGENT,tradingView*
