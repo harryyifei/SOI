@@ -1,12 +1,12 @@
 # > TradingView Proxies
 
 
-DOMAIN,www.tradingview.com
-DOMAIN,data.tradingview.com
-USER-AGENT,tradingView*
-DOMAIN-SUFFIX,tradingview.com
-DOMAIN,telemetry.tradingview.com
-DOMAIN,alerts.tradingview.com
-DOMAIN,s3.tradingview.com
-DOMAIN,pushstream.tradingview.com
-DOMAIN,hotlist.tradingview.com
+DOMAIN,www.tradingview.com,TradingView
+DOMAIN,data.tradingview.com,TradingView
+USER-AGENT,tradingView*,TradingView
+DOMAIN-SUFFIX,tradingview.com,TradingView
+DOMAIN,telemetry.tradingview.com,TradingView
+DOMAIN,alerts.tradingview.com,TradingView
+DOMAIN,s3.tradingview.com,TradingView
+DOMAIN,pushstream.tradingview.com,TradingView
+DOMAIN,hotlist.tradingview.com,TradingView
