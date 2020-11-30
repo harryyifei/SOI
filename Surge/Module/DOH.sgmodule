@@ -2,4 +2,5 @@
 #!desc=DNS Over HTTPS
 
 [General]
-doh-server = https://doh.pub/dns-query
+# doh-server = https://doh.pub/dns-query
+doh-server = https://dns.alidns.com/dns-query
