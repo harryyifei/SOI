@@ -2,6 +2,4 @@
 #!desc=DNS Over HTTPS
 
 [General]
-# doh-server = https://doh.pub/dns-query,https://cdn-doh.ssnm.xyz/dns-query,https://dns.nextdns.io/cdcf97
-
 doh-server = https://dns.nextdns.io/cdcf97
