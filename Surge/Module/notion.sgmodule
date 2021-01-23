@@ -1,4 +1,5 @@
-#!name=notion
+#!name=Notion
+#!desc= notion 特殊的分流规则
 
 
 [Rule]
