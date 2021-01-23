@@ -1,84 +1,52 @@
 ## 简介
 
-Clash、Kitsunebi、Mellow、Potatso、Quantumult(X)、Shadowrocket、Pepi(ShadowRay)、Surge 的配置规则文件
+Clash、Quantumult(X)、Shadowrocket、Surge 的配置规则文件
 
 ## 规则
 
-规则分为**标准版**、**专业版**和**回国版**
-
-### 标准版
-
-- 使用公共 DNS 达到快速、准确、稳定及安全的解析
-- 国内直连、海外加速
-- Apple 服务加速
-- 海外流媒体（部分）及大陆流媒体面向港澳台限定（部分）服务指定节点
+规则分为 Scripts Rulesets & Surge Modules.
 
 ### 专业版
 
-在标准版的基础上加入：
+DOH 使用特供版本，应对国内各种 DNS 污染以及广告问题
 
-- 拦截运营商劫持
-- 拦截臭名昭著的欺诈网站（如**思杰马克丁**伪造的一系列软件官网、MacKeeper 等）
-- 拦截应用广告
-  ⚠️ 网页广告请使用 Safari 内容拦截器如 [ADGuard](https://apps.apple.com/app/apple-store/id1047223162) 或集成去广告功能的浏览器
-- TikTok 解锁
+- 备选方案有 NextDNS 免费版本
+- Cloudflare + Adguard 方案（配置较为麻烦）
+- Surge 配合 Surgio + Modules 使用
 
-### 回国版
+### 导入配置教程
 
-- 国内流媒体服务解锁
-- 拦截应用广告
-  ⚠️ 网页广告请使用 Safari 内容拦截器如 [ADGuard](https://itunes.apple.com/app/apple-store/id1047223162?mt=8) 或集成去广告功能的浏览器
 
-### 下载
+| 应用 | Surgio |                          ihie Rules                          | 机场配置 |  |
+| :-: | :-: | :-: | :-: | --- |
+| Surge iOS | 自建托管 | [**地址**](https://github.com/lhie1/Rules/tree/master) |  |  |
+|  Surge Mac   | ⬆️️ | ⬆️️ | |  |
+| Quantumult X | 托管Node | ⬆️️ | |  |
+| Shadowrocket | 托管Node | [地址](https://raw.githubusercontent.com/lhie1/Rules/master/Shadowrocket/Complete.conf) | |  |
+| Clash |  |  | |  |
 
-- 移动设备长按版本名即可「拷贝」链接进行导入
-- 有自定义规则需求方才使用「快捷指令」
 
-#### 导入配置教程
 
-- [Kitsunebi 配置导入](https://medium.com/circumvention-technology/import-profile-on-kitsunebi-6befa3db03db)
-- [Quantumult 配置导入](https://medium.com/circumvention-technology/import-profile-on-quantumult-2e5cef9cb0c5)
-- [Quantumult X 配置导入](https://medium.com/circumvention-technology/import-profile-on-quantumult-x-6dca41b597d8)
-- [Shadowrocket 配置导入](https://medium.com/circumvention-technology/import-profile-on-shadowrocket-f183cd4e95ae)
-- [Surge 配置导入](https://medium.com/circumvention-technology/import-profile-on-surge-2d4119822302)
 
-|                             应用                             |                            标准版                            |                            专业版                            |                            回国版                            |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| Clash([ClashX](https://github.com/yichengchen/clashX) / [Clash for Windows](https://github.com/Fndroid/clash_for_windows_pkg)) |                              无                              | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/Pro.yaml) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/BacktoCN.yaml) |
-| Kitsunebi([iOS](https://apps.apple.com/app/apple-store/id1446584073) / [Android](https://play.google.com/store/apps/details?id=fun.kitsunebi.kitsunebi4android&hl=zh)) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/BacktoCN.conf) |
-| [Mellow](https://github.com/eycorsican/mellow/blob/master/README.md) |                              无                              | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Mellow/Pro.conf) |                              无                              |
-| [Potatso](https://apps.apple.com/app/apple-store/id1162704202) |                              无                              | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Potatso/Pro.conf) |                              无                              |
-| [Quantumult](https://apps.apple.com/app/apple-store/id1252015438) \| [快捷指令](https://www.icloud.com/shortcuts/44f0cffd3ddf422ea28fb94380cec417) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Pro.conf) / [Rejection](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Rejection.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/BacktoCN.conf) / [Rejection](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Rejection.conf) |
-| [Quantumult X](https://apps.apple.com/app/apple-store/id1443988620) \| [Qure 图标组](https://github.com/Koolson/Qure/blob/master/README.md) |                              无                              | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/BacktoCN.conf) |
-| [Shadowrocket](https://apps.apple.com/app/apple-store/id932747118) / [Pepi](https://apps.apple.com/app/apple-store/id1283082051) \| [快捷指令](https://www.icloud.com/shortcuts/b50d84fb063e469891f8600ab089a684) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/BacktoCN.conf) |
-| Surge 2 \| [快捷指令](https://www.icloud.com/shortcuts/244585386fef4058abc9ac4b2f47ca56) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/BacktoCN.conf) |
-| [Surge 3+](https://nssurge.com/) \| [快捷指令](https://www.icloud.com/shortcuts/6acc9053ff6e487ea6b0f43c2f84b72c) |                              无                              | [Surge3](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf) |                              无                              |
 
-## 说明
-
-### DNS 设置
+## DNS
 
 **如果经常使用的网络没有 DNS 劫持问题，则配置为使用系统 DNS 并追加公共 DNS，如：**
 
 ```
-119.29.29.29,223.5.5.5,system
+# 电信 118.118.118.118
+# 联通 116.116.116.116
 ```
 
-**如果经常使用的网络存在 DNS 劫持问题，则配置为仅使用公共 DNS，如：**
+### 配置 DOH
 
-```
-119.29.29.29,223.5.5.5
-```
+可以通过 Surge 4 支持的 DOH 模块来增加 DNS 的访问效率以及速度，例如 NextDNS 提供的免费服务
 
-#### 为什么没有海外 DNS
-
-首先目前海外 DNS 基本在国内没有节点会导致 CDN **解析不准确**如解析到香港节点（包括腾讯的 119.28.28.28 因运营商没有对路由进行更新所导致）
-
-其次很多人觉得海外公共 DNS 干净，而实际情况是不仅因为解析结果没有指向适合你网络的 CDN 上导致网络卡顿，被污染的域名依旧污染，甚至部分区域的运营商还对海外 DNS 请求完全进行抢答，所以没有意义。
-
-------
+[NextDNS](https://nextdns.io)
 
 
+
+---
 
 ### 关于 Surge Ruleset 和 Quantumult X Filter Remote 说明
 
@@ -91,7 +59,7 @@ Clash、Kitsunebi、Mellow、Potatso、Quantumult(X)、Shadowrocket、Pepi(Shado
 5. HKMTMedia(DomesticMedia).list - 大陆流媒体面向港澳台限定（可不加）
 6. Global.list - 国际网站/应用
 7. Apple.list - Apple 服务（可不加）
-9. China.list - 国内网站/应用
+8. China.list - 国内网站/应用
 
 **说明**
 
@@ -108,82 +76,7 @@ Clash、Kitsunebi、Mellow、Potatso、Quantumult(X)、Shadowrocket、Pepi(Shado
 
 综上所述、以此类推，独立的 .list 一般都集成在了默认的 6 条 .list 文件中，如果你没有进阶的定制化需求是**不 需 要**引入那么多的，根据需求使用才是 Ruleset/Filter 的灵活用法，规则不是越多越好。
 
-**获取更多 list**
-
-Surge：https://github.com/ConnersHua/Profiles/tree/master/Surge/Ruleset
-
-Quantumult X：https://github.com/ConnersHua/Profiles/tree/master/Quantumult/X/Filter
-
-.list 文件真实地址点击「Raw」获得，直接复制网页地址如「 https://github.com/ConnersHua/Profiles/blob/master/Quantumult/X/Filter/Advertising.list 」是错误的，确保你引用的地址是「 https://raw.githubusercontent.com/ 」开头
-
-------
-
-
-
-### 常见问题
-
-> 0.什么是白名单和黑名单模式？该使用哪个？
-
-⚠️ 注意：仅推荐使用白名单模式，除非你有特殊需求。
-
-简单的说，除了规则以外的请求，都走代理就是白名单模式，都走直连就是黑名单模式。
-
-**那么，是不是白名单模式应该把全中国的网址都写进规则？**
-
-不是，仅是该代理还是直连的问题上使用 GeoIP 规则就可以解决绝大多数的中国网站直连。
-
-> 1.遇到连接公共场所 Wi-Fi 时验证页面无法显示？
-
-暂时关闭待验证成功后再开启，或者如校园网运营商客户端的可将相关域名或 IP 地址加入到「skip-proxy」中（Surge、Shadowrocket、Pepi(ShadowRay) 支持）。
-
-> 2.iOS 12 上 Siri 无法正常使用
-
-[#55](https://github.com/ConnersHua/Profiles/issues/55) （仅）iOS 12 的 Bug，尝试多次重启直至正常。
-
-> 3.关于知乎避免强制「App 内打开」
-
-此功能目前仅 Surge 用户可用，若想使用桌面版网页的知乎（但会影响 App）可以在「Header Rewrite」加入复写规则：
-
-```
-^https?://www\.zhihu\.com header-replace User-Agent Mozilla/5.0  (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like  Gecko) Version/12.0.2 Safari/605.1.15
-```
-
-> 4.如何解锁 TikTok？
-
-1. 仅支持 Surge 和 Quantumult(X) 专业版规则。
-2. 建议下载香港区域的 TikTok，如美国区域的 TikTok 据反馈存在换区「无效」的问题。
-3. TikTok 区域设置与 Rewrite 规则有关（也就是说和 IP、商店无关），默认设置为日本区域，若想更换到其他地区需要修改规则，Quantumult X 因「引用的资源不可修改」需要在「编辑」的 `[rewrite_local]`  里如下添加规则
-
-```
-[rewrite_local]
-(?<=(carrier|account|sys)_region=)CN url 307 JP
-```
-
-其中「JP」即为区域，修改成其他区域如「HK」即可，Surge 或 Quantumult 图形化界面完善，直接在图形界面中找到上述规则修改即可。
-
-> 5.Apple News 具体怎么使用
-
-副作用为 macOS 及 iOS 12 以前的系统地图会变成海外 TOMTOM 版。
-
-[关于解锁 Apple News 区域限制](https://chua.pro/unlock-apple-news-regional-restrictions/)
-
-> 6.Clash 连接不上内网服务器
-
-移除掉配置内的 DNS 配置。
-
-> 7.打开「淘宝」等阿里巴巴系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
-
-部分「阿里云」节点会导致此问题，如遇此问题主节点换成其他的。
-
-> 8.关于 Speedtest 想直连/代理？
-
-规则对于 Speedtest 不是绝对的直连也不是绝对的代理，对于国内测速点是直连，对于国外测速点是代理。
-
-默认打开 Speedtest 会自动选择适用于代理服务器节点的国外测速节点，若要进行国内网速测试手动修改「测速点」搜索你所在城市或省会的拼音然后选择运营商即可。
-
-------
-
-
+---
 
 ### 关于去广告
 
@@ -237,22 +130,11 @@ Quantumult X：https://github.com/ConnersHua/Profiles/tree/master/Quantumult/X/F
 
 ⚠️ 注意：如果开启了代理服务器的「UDP 转发」会失效。
 
-------
-
-## 最后
-*Good Luck Have Fun*
+---
 
 ## 感谢
 
 - [lhie1](https://github.com/lhie1)
-- Lison Bin
-- [linjiacheng](https://github.com/linjiacheng)
-- Booui
-- liceva
-- [JO2EY](https://github.com/JO2EY) 
-- [Choler](https://github.com/Choler)
-- [xream](https://github.com/xream)
-- [gkeyes](https://github.com/gkeyes)
 
 ## 许可
 
