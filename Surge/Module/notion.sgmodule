@@ -1,0 +1,14 @@
+#!name=notion
+
+
+[Rule]
+#notion
+PROCESS-NAME,notion,Proxy
+USER-AGENT,notion*,Proxy
+DOMAIN,loggly.com,Proxy
+DOMAIN,segment.com,Proxy
+DOMAIN,intercom.io,Proxy
+DOMAIN,intercomcdn.com,Proxy
+DOMAIN,amplitude.com,Proxy
+DOMAIN,notion.so,Proxy
+DOMAIN,amazonaws.com,Proxy
