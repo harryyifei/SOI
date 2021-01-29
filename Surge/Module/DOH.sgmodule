@@ -2,4 +2,4 @@
 #!desc=DNS Over HTTPS
 
 [General]
-doh-server = https://dns.nextdns.io/cdcf97
+doh-server = https://dh-dns.global-idc.net/dns-query
