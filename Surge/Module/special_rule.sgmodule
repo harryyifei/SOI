@@ -8,4 +8,9 @@ PROCESS-NAME,Surge,Proxy
 # Apple
 DOMAIN,ocsp.apple.com,Proxy
 # US Government
-DOMAIN,www.bls.gov,🇺🇸 US
+DOMAIN-SUFFIX,bls.gov,🇺🇸 US
+
+DOMAIN-SUFFIX,smtcdns.net,REJECT
+DOMAIN-SUFFIX,yfdts.net,REJECT
+DOMAIN-SUFFIX,yfp2p.net,REJECT
+DOMAIN-SUFFIX,yfscdn.net,REJECT
