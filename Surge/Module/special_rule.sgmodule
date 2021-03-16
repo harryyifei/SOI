@@ -3,12 +3,5 @@
 
 
 [Rule]
-#Surge 更新自身或者外部资源更新用指定的 Proxy
-PROCESS-NAME,Surge,Proxy
 # US Government
 DOMAIN-SUFFIX,bls.gov,🇺🇸 US
-
-DOMAIN-SUFFIX,smtcdns.net,REJECT
-DOMAIN-SUFFIX,yfdts.net,REJECT
-DOMAIN-SUFFIX,yfp2p.net,REJECT
-DOMAIN-SUFFIX,yfscdn.net,REJECT

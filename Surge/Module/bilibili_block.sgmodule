@@ -1,0 +1,9 @@
+#!name=bilibili Block
+#!desc= bilibili 的特别阻挡域名提高访问速度
+
+
+[Rule]
+DOMAIN-SUFFIX,smtcdns.net,REJECT
+DOMAIN-SUFFIX,yfdts.net,REJECT
+DOMAIN-SUFFIX,yfp2p.net,REJECT
+DOMAIN-SUFFIX,yfscdn.net,REJECT
