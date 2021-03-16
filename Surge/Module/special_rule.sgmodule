@@ -5,8 +5,6 @@
 [Rule]
 #Surge 更新自身或者外部资源更新用指定的 Proxy
 PROCESS-NAME,Surge,Proxy
-# Apple
-DOMAIN,ocsp.apple.com,Proxy
 # US Government
 DOMAIN-SUFFIX,bls.gov,🇺🇸 US
 
