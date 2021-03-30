@@ -1,0 +1,11 @@
+#notion
+
+PROCESS-NAME,notion
+USER-AGENT,notion*
+DOMAIN,loggly.com
+DOMAIN,segment.com
+DOMAIN,intercom.io
+DOMAIN,intercomcdn.com
+DOMAIN,amplitude.com
+DOMAIN,notion.so
+DOMAIN,amazonaws.com
