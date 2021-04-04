@@ -1,5 +1,0 @@
-#!name=DOH
-#!desc=DNS Over HTTPS
-
-[General]
-doh-server = https://dh-dns.global-idc.net/dns-query
