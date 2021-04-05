@@ -5,3 +5,4 @@
 [Rule]
 # US Government
 DOMAIN-SUFFIX,bls.gov,🇺🇸 US
+DOMAIN-KEYWORD,www.google.,🇺🇸 US
