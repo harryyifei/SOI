@@ -1,6 +1,8 @@
 #!name=Notion
 #!desc= notion 特殊的分流规则以及 Hosts
 
+[General]
+doh-server = https://dns.jerryw.cn:8443/dns-query
 
 [Rule]
 #notion
