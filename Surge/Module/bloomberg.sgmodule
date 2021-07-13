@@ -4,25 +4,25 @@
 
 
 [Rule]
-DOMAIN-SUFFIX,bloomberg.co.kr
-DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,bloomberg.com.br
-DOMAIN-SUFFIX,bloomberg.fm
-DOMAIN-SUFFIX,bloomberg.tv
-DOMAIN-SUFFIX,bloombergapps.com
-DOMAIN-SUFFIX,bloombergarcade.com
-DOMAIN-SUFFIX,bloombergbeta.com
-DOMAIN-SUFFIX,blpprofessional.com
-DOMAIN-SUFFIX,bmia.org
-DOMAIN-SUFFIX,bnef.com
-DOMAIN-SUFFIX,businessweek.com
-DOMAIN-SUFFIX,businessweekmag.com
-DOMAIN-SUFFIX,bwbx.io
-DOMAIN-SUFFIX,citylab.com
-DOMAIN-SUFFIX,gotraffic.net
-DOMAIN-SUFFIX,londonmithraeum.com
-DOMAIN-SUFFIX,neweconomyforum.com
-DOMAIN-SUFFIX,newenergyfinance.com
-DOMAIN-SUFFIX,quicktake.video
-DOMAIN-SUFFIX,techatbloomberg.com
-DOMAIN-SUFFIX,tictoc.video
+DOMAIN-SUFFIX,bloomberg.co.kr,🇭🇰 HK
+DOMAIN-SUFFIX,bloomberg.com,🇭🇰 HK
+DOMAIN-SUFFIX,bloomberg.com.br,🇭🇰 HK
+DOMAIN-SUFFIX,bloomberg.fm,🇭🇰 HK
+DOMAIN-SUFFIX,bloomberg.tv,🇭🇰 HK
+DOMAIN-SUFFIX,bloombergapps.com,🇭🇰 HK
+DOMAIN-SUFFIX,bloombergarcade.com,🇭🇰 HK
+DOMAIN-SUFFIX,bloombergbeta.com,🇭🇰 HK
+DOMAIN-SUFFIX,blpprofessional.com,🇭🇰 HK
+DOMAIN-SUFFIX,bmia.org,🇭🇰 HK
+DOMAIN-SUFFIX,bnef.com,🇭🇰 HK
+DOMAIN-SUFFIX,businessweek.com,🇭🇰 HK
+DOMAIN-SUFFIX,businessweekmag.com,🇭🇰 HK
+DOMAIN-SUFFIX,bwbx.io,🇭🇰 HK
+DOMAIN-SUFFIX,citylab.com,🇭🇰 HK
+DOMAIN-SUFFIX,gotraffic.net,🇭🇰 HK
+DOMAIN-SUFFIX,londonmithraeum.com,🇭🇰 HK
+DOMAIN-SUFFIX,neweconomyforum.com,🇭🇰 HK
+DOMAIN-SUFFIX,newenergyfinance.com,🇭🇰 HK
+DOMAIN-SUFFIX,quicktake.video,🇭🇰 HK
+DOMAIN-SUFFIX,techatbloomberg.com,🇭🇰 HK
+DOMAIN-SUFFIX,tictoc.video,🇭🇰 HK
