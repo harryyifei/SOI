@@ -1,9 +1,9 @@
 # > TradingView Proxies
 PROCESS-NAME,tradingview
-DOMAIN,www.tradingview.com
 DOMAIN,data.tradingview.com
 USER-AGENT,tradingView*
 DOMAIN-SUFFIX,tradingview.com
+DOMAIN,www.tradingview.com
 DOMAIN,telemetry.tradingview.com
 DOMAIN,alerts.tradingview.com
 DOMAIN,s3.tradingview.com
