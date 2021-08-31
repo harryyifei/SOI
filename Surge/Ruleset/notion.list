@@ -1,6 +1,7 @@
 #notion
 
 PROCESS-NAME,notion
+PROCESS-NAME,notion helper
 USER-AGENT,notion*
 DOMAIN,loggly.com
 DOMAIN,segment.com
