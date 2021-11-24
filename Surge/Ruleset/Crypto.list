@@ -3,7 +3,8 @@ DOMAIN-SUFFIX,binance.com
 PROCESS-NAME,Binance
 USER-AGENT,binance*
 DOMAIN,log.bntrace.com
-
+USER-AGENT,opeansea*
+DOMAIN-SUFFIX,opensea.io
 DOMAIN-SUFFIX,bitcointalk.org
 DOMAIN-SUFFIX,bitfinex.com
 DOMAIN-SUFFIX,bitmex.com
