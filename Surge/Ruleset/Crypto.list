@@ -3,7 +3,16 @@ PROCESS-NAME,Binance
 USER-AGENT,binance*
 DOMAIN,log.bntrace.com
 
+# Opensea & Wallets
 USER-AGENT,opeansea*
+DOMAIN-SUFFIX,etherscan.io
+DOMAIN-SUFFIX,infura.io
+PROCESS-NAME,rainbow
+DOMAIN-SUFFIX,rainbow.imgix.net
+DOMAIN-SUFFIX,cryptocompare.com
+DOMAIN-SUFFIX,tokenmapper.api.matic.today
+
+
 DOMAIN-SUFFIX,rainbow.me
 DOMAIN-SUFFIX,opensea.io
 DOMAIN-SUFFIX,coingecko.com
