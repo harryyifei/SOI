@@ -1,6 +1,9 @@
 #notion
 
 PROCESS-NAME,notion
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion.new
+DOMAIN-SUFFIX, notion. so
 USER-AGENT,notion*
 DOMAIN,loggly.com
 DOMAIN,segment.com
