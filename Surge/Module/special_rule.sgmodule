@@ -6,3 +6,7 @@
 # US Government
 DOMAIN-SUFFIX,bls.gov,🇺🇸 US
 DOMAIN-KEYWORD,www.google.,🇺🇸 US
+
+# Noodlesoft for Hazel www.noodlesoft.com
+DOMAIN-SUFFIX,noodlesoft.com,🇺🇸 US
+DOMAIN-KEYWORD,noodlesoft,🇺🇸 US
