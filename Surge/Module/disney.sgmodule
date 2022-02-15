@@ -1,0 +1,9 @@
+#!name=Disney双字幕
+#!desc=迪士尼添加双字幕
+#!system=ios
+
+[Script]
+DisneyPlus-Dualsub = type=http-response,pattern=https:\/\/.+media.dssott.com\/ps01\/disney\/.+(\.vtt|-all-.+\.m3u8.*),requires-body=true,max-size=307200,script-path=DisneyPlus-Dualsub.js
+
+[MITM]
+hostname = *.media.dssott.com
