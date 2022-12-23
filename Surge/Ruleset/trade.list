@@ -1,4 +1,4 @@
-# > TradingView Proxies
+# > TradingView
 PROCESS-NAME,tradingview
 DOMAIN,data.tradingview.com
 USER-AGENT,tradingView*
@@ -15,3 +15,7 @@ PROCESS-NAME,interactivebrokers
 DOMAIN-SUFFIX,interactivebrokers.com
 DOMAIN-SUFFIX,ibkr.com
 DOMAIN-SUFFIX,ibllc.com
+
+# > Bank of American
+DOMAIN-SUFFIX,bankofamerica.com
+DOMAIN-SUFFIX,bac-assets.com
