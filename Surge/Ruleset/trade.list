@@ -1,7 +1,7 @@
 # > TradingView
 PROCESS-NAME,tradingview
 DOMAIN,data.tradingview.com
-USER-AGENT,tradingView*
+USER-AGENT,tradingview*
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN,www.tradingview.com
 DOMAIN,telemetry.tradingview.com
